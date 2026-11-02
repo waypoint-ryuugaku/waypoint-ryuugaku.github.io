@@ -1,4 +1,4 @@
-# WayPoint 留学ベース
+﻿# WayPoint留学ベース
 
 フィリピン語学学校の比較サイト（`docs/`、GitHub Pagesで公開）と紹介note原稿（`notes/`）。
 

@@ -1,0 +1,25 @@
+# WayPoint 留学ベース やることリスト
+
+## 🔑 アカウント・ドメイン取得
+- [ ] ドメイン `waypoint-ryugaku.com` を取得（お名前.com / ムームードメイン等、年1,500円前後）
+- [ ] ドメイン `waypoint-ryugaku.jp` の空き確認・取得（任意）
+- [x] note アカウント作成：`note.com/waypointryuugaku`
+- [x] Instagram アカウント作成：`waypoint.ryuugakubase`
+- [x] LINE公式アカウント開設（手順は [LINE_SETUP.md](LINE_SETUP.md)）
+  - [x] 友だち追加URL取得・反映済み：https://lin.ee/UX5K7mj
+  - [ ] あいさつメッセージ・リッチメニュー設定
+  - [ ] （任意）プレミアムID `@waypoint-ryugaku` を取得
+- [ ] （任意）J-PlatPat で「ウェイポイント」「WAYPOINT」を区分35・39・41で商標検索
+
+## 📝 コンテンツ
+- [ ] note原稿サンプル（notes/001）の構成・口調を確認
+- [ ] 残り90校の原稿作成
+- [ ] 各校の費用・情報を公式サイトで確認
+- [ ] noteに投稿 → 記事URLを `docs/data/schools.js` の `note` 欄に記入
+
+## 🌐 サイト公開
+- [ ] GitHubにアップ → GitHub Pagesで公開
+- [ ] 比較サイトURLを `scripts/generate-notes.js` の `siteUrl` に記入 → 原稿を再生成
+- [ ] （ドメイン取得後）独自ドメインを GitHub Pages に設定
+
+> URL類を差し替えたら `node scripts/generate-notes.js` を実行すると原稿に一括反映されます。

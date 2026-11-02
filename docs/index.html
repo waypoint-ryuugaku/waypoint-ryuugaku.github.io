@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WayPoint 留学ベース｜フィリピン留学 語学学校比較ナビ｜セブ・バギオ・クラークの学校を徹底比較</title>
+  <meta name="description" content="フィリピンの語学学校を地域・スタイル・目的・予算で比較。各校の詳しい紹介noteと、公式LINEでの無料留学相談はこちら。">
+  <meta property="og:title" content="フィリピン留学 語学学校比較ナビ">
+  <meta property="og:description" content="フィリピンの語学学校を条件で絞り込んで比較。無料のLINE相談も受付中。">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#" class="logo" id="brand-logo"><span class="logo-mark">🌴</span><span id="brand-name"></span></a>
+    <nav class="nav-links">
+      <a href="#schools">学校一覧</a>
+      <a href="#quiz">学校診断</a>
+      <a href="#" class="btn btn-line btn-sm js-line" id="nav-line-btn">LINEで無料相談</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <p class="eyebrow" id="brand-tagline"></p>
+        <h1>あなたにぴったりの<br><span class="grad">フィリピン語学学校</span>が見つかる</h1>
+        <p class="lead">セブ・バギオ・クラークほか、厳選した語学学校を<br class="pc">地域・スタイル・目的・予算でまとめて比較。</p>
+        <div class="hero-cta">
+          <a href="#schools" class="btn btn-primary" id="hero-search-btn">学校を比較する</a>
+          <a href="#" class="btn btn-line js-line" id="hero-line-btn">LINEで無料相談</a>
+        </div>
+        <div class="stats">
+          <div><strong id="stat-count">0</strong><span>掲載校</span></div>
+          <div><strong>¥0</strong><span>相談料</span></div>
+          <div><strong>1分</strong><span>学校診断</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="schools" class="section">
+      <h2 class="section-title">学校を探す・比較する</h2>
+      <div class="filters glass">
+        <input id="f-keyword" type="search" placeholder="学校名・特徴で検索">
+        <select id="f-region"><option value="">すべての地域</option></select>
+        <select id="f-style"><option value="">すべてのスタイル</option></select>
+        <select id="f-purpose"><option value="">すべての目的</option></select>
+        <select id="f-budget">
+          <option value="">予算（4週間）</option>
+          <option value="20">〜20万円台前半</option>
+          <option value="25">〜25万円</option>
+          <option value="30">〜30万円</option>
+        </select>
+        <select id="f-sort">
+          <option value="id">並び順：標準</option>
+          <option value="cost">費用が安い順</option>
+          <option value="m2m">マンツーマンが多い順</option>
+        </select>
+      </div>
+      <p class="result-count" id="result-count"></p>
+      <div class="grid" id="school-grid"></div>
+    </section>
+
+    <section id="quiz" class="section">
+      <div class="quiz glass">
+        <h2 class="section-title">1分でわかる！あなたに合う学校診断</h2>
+        <div id="quiz-body"></div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <h2>迷ったら、まずは無料でLINE相談</h2>
+      <p>友だち追加で「<span id="line-gift"></span>」をプレゼント。<br>しつこい勧誘は一切ありません。</p>
+      <a href="#" class="btn btn-line btn-lg js-line" id="band-line-btn">LINEで友だち追加する</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>※掲載の費用・情報は目安です。最新情報は各校公式サイトまたはLINE相談でご確認ください。</p>
+    <p class="sns"><a id="note-link" target="_blank" rel="noopener">note</a> ｜ <a id="insta-link" target="_blank" rel="noopener">Instagram</a> ｜ <a class="js-line">LINE</a></p>
+    <p>© <span id="footer-brand"></span></p>
+  </footer>
+
+  <!-- 比較トレイ -->
+  <div class="compare-tray" id="compare-tray">
+    <span id="compare-label">0校選択中</span>
+    <button class="btn btn-primary btn-sm" id="compare-open-btn">比較する</button>
+    <button class="btn-text" id="compare-clear-btn">クリア</button>
+  </div>
+  <div class="modal" id="compare-modal">
+    <div class="modal-inner glass">
+      <button class="modal-close" id="compare-close-btn" aria-label="閉じる">×</button>
+      <h2>学校比較</h2>
+      <div class="table-wrap" id="compare-table"></div>
+    </div>
+  </div>
+
+  <a href="#" class="float-line js-line" id="float-line-btn">💬 LINE相談</a>
+
+  <script src="config.js"></script>
+  <script src="data/schools.js"></script>
+  <script src="data/schools-cebu.js"></script>
+  <script src="data/schools-luzon.js"></script>
+  <script src="data/schools-other.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

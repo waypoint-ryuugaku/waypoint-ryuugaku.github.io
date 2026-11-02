@@ -1,6 +1,6 @@
 # note記事 確認チェックリスト
 
-確認・修正が済んだら [x] にし、note公開後はURLを docs/data の note 欄に記入してください。
+確認・修正が済んだら [x] にし、note公開後はURLを記入してください。
 
 | 確認 | No | 地域 | 学校 | 公開URL |
 |---|---|---|---|---|
@@ -18,7 +18,6 @@
 | [ ] | 012 | セブ | CPI（Cebu Pelis Institute） | |
 | [ ] | 013 | セブ | EV Academy | |
 | [ ] | 014 | セブ | SMEAG Capital | |
-| [ ] | 015 | セブ | SMEAG Classic（スパルタ校） | |
 | [ ] | 016 | セブ | Cella Uni Campus | |
 | [ ] | 017 | セブ | Cella Premium Campus | |
 | [ ] | 018 | セブ | GLC（Global Language Cebu／旧IDEA CEBU） | |
@@ -30,7 +29,6 @@
 | [ ] | 024 | セブ | English Fella | |
 | [ ] | 025 | セブ | B'Cebu | |
 | [ ] | 026 | セブ | C2 UBEC | |
-| [ ] | 027 | セブ | UV ESL Center（University of the Visayas） | |
 | [ ] | 028 | セブ | Cross×Road | |
 | [ ] | 041 | バギオ | BECI スパルタキャンパス | |
 | [ ] | 042 | バギオ | BECI EOPキャンパス | |
@@ -44,7 +42,6 @@
 | [ ] | 050 | クラーク | EG Academy | |
 | [ ] | 051 | クラーク | Clark We Academy | |
 | [ ] | 052 | クラーク | Global Standard | |
-| [ ] | 053 | クラーク | クラークフィリピン留学院 | |
 | [ ] | 054 | タルラック | SMEAG Global School（タルラック） | |
 | [ ] | 055 | スービック | Keystone International Language Center | |
 | [ ] | 056 | スービック | iYES Language School | |
@@ -65,3 +62,34 @@
 | [ ] | 084 | ドゥマゲテ | B&D English School | |
 | [ ] | 085 | ドゥマゲテ | ASPIRE Learn English Institute | |
 | [ ] | 086 | ドゥマゲテ | SPEA（Starting Point English Academy） | |
+| [ ] | 087 | セブ | TARGET Global English Academy | |
+| [ ] | 088 | セブ | Brilliant Cebu English Academy | |
+| [ ] | 089 | セブ | Stargate | |
+| [ ] | 090 | セブ | CG Academy | |
+| [ ] | 091 | セブ | NILS | |
+| [ ] | 092 | セブ | CIJ Academy | |
+| [ ] | 093 | セブ | CBEA（Cebu Business English Academy） | |
+| [ ] | 094 | セブ | Kredo IT留学 | |
+| [ ] | 095 | セブ | Howdy English Academy | |
+| [ ] | 096 | セブ | セブ英語倶楽部 | |
+| [ ] | 097 | セブ | CURIOUS WORLD ACADEMY | |
+| [ ] | 098 | セブ | GITC Cebu | |
+| [ ] | 099 | セブ | PILA | |
+| [ ] | 100 | セブ | QQ English シーフロント校 | |
+| [ ] | 101 | セブ | SMEAG Encanto | |
+| [ ] | 102 | バギオ | PINES IELTSキャンパス（旧Chapis） | |
+| [ ] | 103 | バギオ | JIC プレミアム校 | |
+| [ ] | 104 | クラーク | HANA Academy | |
+| [ ] | 105 | クラーク | Clark TALK Academy | |
+| [ ] | 106 | クラーク | BELA E4U Academy | |
+| [ ] | 107 | クラーク | WEISE School | |
+| [ ] | 108 | クラーク | BEA Academy | |
+| [ ] | 109 | クラーク | WALES New Clark Academy | |
+| [ ] | 110 | マニラ | Grandline English Academy | |
+| [ ] | 111 | マニラ | StepForward | |
+| [ ] | 112 | マニラ | SDA Language Center | |
+| [ ] | 113 | マニラ | AIAP タガイタイ校 | |
+| [ ] | 114 | ダバオ | E&G International Language Center | |
+| [ ] | 115 | ダバオ | Davao Language Academy（DLA） | |
+| [ ] | 116 | バコロド | Acti-LABO | |
+| [ ] | 117 | ボホール | English MiNT | |

@@ -1,10 +1,10 @@
-﻿// note原稿ジェネレーター: node scripts/generate-notes.js
+// note原稿ジェネレーター: node scripts/generate-notes.js
 // docs/data/schools.js と docs/config.js から notes/*.md を生成します
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const root = path.join(__dirname, "..");
 const ctx = { window: {} };
 vm.createContext(ctx);
-const dataFiles = ["docs/config.js", "docs/data/schools.js", "docs/data/schools-cebu.js", "docs/data/schools-luzon.js", "docs/data/schools-other.js"];
+const dataFiles = ["docs/config.js", "docs/data/schools.js", "docs/data/schools-cebu.js", "docs/data/schools-luzon.js", "docs/data/schools-other.js", "docs/data/schools-extra.js"];
 for (const f of dataFiles) if (fs.existsSync(path.join(root, f))) vm.runInContext(fs.readFileSync(path.join(root, f), "utf8"), ctx);
 const C = ctx.window.SITE_CONFIG, S = ctx.window.SCHOOLS;
 const outDir = path.join(root, "notes");

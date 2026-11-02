@@ -110,15 +110,6 @@ window.SCHOOLS.push(
     url: "", note: ""
   },
   {
-    id: "053", name: "クラークフィリピン留学院", region: "クラーク", area: "クラーク",
-    style: "セミスパルタ", manToMan: 5, cost4w: [20, 30], jpRatio: "高め",
-    dorm: "寮・提携宿泊", purposes: ["初心者", "シニア", "日常英会話"],
-    catch: "日本人経営。オーダーメイドで自分のペースで学べる",
-    features: ["日本人経営で初心者も安心", "オーダーメイドのカリキュラム", "シニア・社会人の受け入れ実績"],
-    cautions: ["日本人比率が高めになりやすい"],
-    url: "", note: ""
-  },
-  {
     id: "054", name: "SMEAG Global School（タルラック）", region: "タルラック", area: "タルラック",
     style: "セミスパルタ", manToMan: 4, cost4w: [22, 34], jpRatio: "中程度",
     dorm: "校内寮", purposes: ["親子", "初心者"],

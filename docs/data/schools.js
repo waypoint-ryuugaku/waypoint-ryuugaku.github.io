@@ -40,12 +40,12 @@ window.SCHOOLS = [
   },
   {
     id: "005", name: "Cebu Blue Ocean Academy", region: "セブ", area: "マクタン島",
-    style: "リゾート", manToMan: 4, cost4w: [20, 30], jpRatio: "高め",
+    style: "リゾート", manToMan: 4, cost4w: [20, 30], jpRatio: "中程度",
     dorm: "校内寮（オーシャンビュー）", purposes: ["初心者", "日常英会話", "シニア", "親子"],
-    catch: "海の目の前で学べるリゾート型の日系校",
-    features: ["ビーチまで徒歩圏のロケーション", "日本人経営できめ細かいサポート", "マリンアクティビティと両立しやすい"],
-    cautions: ["日本人比率が高め", "誘惑が多く学習の自己管理が大切"],
-    url: "https://cebu-blue-ocean.com/", note: ""
+    catch: "バギオの名門PINESの姉妹校。海の目の前で学べるリゾート校",
+    features: ["ビーチまで徒歩圏のロケーション", "PINES系列の講師研修ノウハウ", "マリンアクティビティと両立しやすい"],
+    cautions: ["誘惑が多く学習の自己管理が大切"],
+    url: "https://cebublueocean.jp/", note: ""
   },
   {
     id: "006", name: "First English Global College", region: "セブ", area: "マクタン島",

@@ -1,4 +1,4 @@
-// note原稿ジェネレーター: node scripts/generate-notes.js
+﻿// note原稿ジェネレーター: node scripts/generate-notes.js
 // docs/data/schools.js と docs/config.js から notes/*.md を生成します
 const fs = require("fs"), path = require("path"), vm = require("vm");
 const root = path.join(__dirname, "..");
@@ -10,7 +10,7 @@ const C = ctx.window.SITE_CONFIG, S = ctx.window.SCHOOLS;
 const outDir = path.join(root, "notes");
 fs.mkdirSync(outDir, { recursive: true });
 
-const siteUrl = "https://wakatsukakeiri-cmd.github.io/waypoint-ryuugaku/";
+const siteUrl = "https://waypoint-ryuugaku.github.io/";
 // --- LINE導線（相談のハードルを下げる3パターン） ---
 const ctaTop = (s) => `
 > 💬 **読みながら気になったことは、LINEで気軽に聞いてください**

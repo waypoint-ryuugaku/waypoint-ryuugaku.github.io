@@ -1,4 +1,4 @@
-# WayPoint 留学ベース やることリスト
+﻿# WayPoint 留学ベース やることリスト
 
 ## 🔑 アカウント・ドメイン取得
 - [ ] ドメイン `waypoint-ryugaku.com` を取得（お名前.com / ムームードメイン等、年1,500円前後）
@@ -18,9 +18,9 @@
 - [ ] noteに投稿 → 記事URLを `docs/data/schools.js` の `note` 欄に記入
 
 ## 🌐 サイト公開
-- [x] GitHubにアップ（https://github.com/wakatsukakeiri-cmd/waypoint-ryuugaku）
-- [ ] GitHub Pagesを有効化（Settings → Pages → main / docs）
-- [x] 比較サイトURLを原稿に反映：https://wakatsukakeiri-cmd.github.io/waypoint-ryuugaku/
+- [x] GitHubにアップ（https://github.com/waypoint-ryuugaku/waypoint-ryuugaku.github.io）
+- [x] GitHub Pagesを有効化（Settings → Pages → main / docs）
+- [x] 比較サイトURLを原稿に反映：https://waypoint-ryuugaku.github.io/
 - [ ] （ドメイン取得後）独自ドメインを GitHub Pages に設定
 
 > URL類を差し替えたら `node scripts/generate-notes.js` を実行すると原稿に一括反映されます。

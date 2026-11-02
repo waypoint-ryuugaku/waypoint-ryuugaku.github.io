@@ -36,7 +36,6 @@
 | [ ] | 044 | バギオ | WALES | |
 | [ ] | 045 | バギオ | A&J | |
 | [ ] | 046 | バギオ | A&J ECOキャンパス | |
-| [ ] | 047 | バギオ | HELP Martyrs | |
 | [ ] | 048 | バギオ | CNS | |
 | [ ] | 049 | クラーク | HELP Clark | |
 | [ ] | 050 | クラーク | EG Academy | |
@@ -93,3 +92,15 @@
 | [ ] | 115 | ダバオ | Davao Language Academy（DLA） | |
 | [ ] | 116 | バコロド | Acti-LABO | |
 | [ ] | 117 | ボホール | English MiNT | |
+| [ ] | 118 | セブ | English Fella 2nd Campus | |
+| [ ] | 119 | ドゥマゲテ | We'll English Academy プレミアム校 | |
+| [ ] | 120 | セブ | ELSA | |
+| [ ] | 121 | セブ | IMS Academy | |
+| [ ] | 122 | セブ | ETHOS Language School | |
+| [ ] | 123 | セブ | Winning English Academy | |
+| [ ] | 124 | マニラ | English Breakthrough | |
+| [ ] | 125 | マニラ | Basic English Camp（b.E.Camp） | |
+| [ ] | 126 | マニラ | PJ Link Language Center | |
+| [ ] | 127 | スービック | Step-Up English Academy | |
+| [ ] | 128 | セブ | IDEA ACADEMIA | |
+| [ ] | 129 | バギオ | HELP Baguio（Longlong校） | |

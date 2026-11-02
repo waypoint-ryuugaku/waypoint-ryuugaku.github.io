@@ -98,6 +98,18 @@ const found = {
   "115": ["davaolanguageacademy@gmail.com", "https://davaolanguage.com/"],
   "116": ["contact@actilabo.info ／ 050-3552-1658", "https://actilabo.info/"],
   "117": ["公開窓口なし。紹介エージェント経由のみ確認（公式サイトで要確認）", ""],
+  "118": ["englishfella@englishfella.com（024と同一窓口）／ +63-32-344-0881", "https://englishfella.com/"],
+  "119": ["info@well-english-academy.com（083と同一窓口）", "https://www.well-english-academy.com/"],
+  "120": ["elsaschoolcebu@gmail.com ／ cebuelsa2004@gmail.com", "https://elsaschoolcebu.com/"],
+  "121": ["imsmkt@ims7.com ／ +63-32-384-1202", "https://ims7.com/"],
+  "122": ["公式サイトのフォーム ／ +63-919-068-6086", "https://ethos.ph/"],
+  "123": ["contact@winningenglishschool.com", "https://winningenglishschool.com/"],
+  "124": ["englishbreakthrough08@gmail.com ／ 050-3706-3636", "https://english-breakthrough.com/"],
+  "125": ["bec@english-bec.com", "http://english-bec.com/"],
+  "126": ["pjlink.marketing@gmail.com ／ pjlink.language.center@gmail.com", "https://pjlink-manila.com/"],
+  "127": ["stepupenglish@gmail.com", ""],
+  "128": ["⚠ 運営状況要確認（GLC admin@glcenglish.com に問い合わせ可）", ""],
+  "129": ["baguiohelp@gmail.com（HELP共通）※改装休校中", "https://www.helpenglish.org/"],
 };
 
 const q = (v) => '"' + String(v).replace(/"/g, '""') + '"';

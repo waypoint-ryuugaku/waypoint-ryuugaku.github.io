@@ -56,15 +56,6 @@ window.SCHOOLS.push(
     url: "", note: ""
   },
   {
-    id: "047", name: "HELP Martyrs", region: "バギオ", area: "バギオ市内",
-    style: "スパルタ", manToMan: 4, cost4w: [21, 30], jpRatio: "中程度",
-    dorm: "校内寮", purposes: ["日常英会話", "IELTS", "TOEIC"],
-    catch: "元祖スパルタ校として知られるHELPグループのバギオ校",
-    features: ["徹底したEOPと学習管理", "長年の指導実績", "試験対策コースあり"],
-    cautions: ["キャンパス再編が続いており最新の運営状況の確認が必要"],
-    url: "", note: ""
-  },
-  {
     id: "048", name: "CNS", region: "バギオ", area: "バギオ市内",
     style: "スパルタ", manToMan: 4, cost4w: [22, 32], jpRatio: "低め",
     dorm: "校内寮", purposes: ["IELTS"],

@@ -57,7 +57,8 @@
     if (sort === "cost") list.sort((a, c) => a.cost4w[0] - c.cost4w[0]);
     if (sort === "m2m") list.sort((a, c) => c.manToMan - a.manToMan);
     $("result-count").textContent = `${list.length}校が見つかりました`;
-    $("school-grid").innerHTML = list.length ? list.map(card).join("") :
+    $("school-grid").innerHTML = list.length ? list.map(card).join("") : !S.length ?
+      `<p style="color:var(--muted);text-align:center;grid-column:1/-1">現在、提携校の情報を準備中です。<br>学校選びのご相談は <a href="${C.lineUrl}" target="_blank" rel="noopener" style="color:var(--teal)">公式LINE</a> から無料で受け付けています。</p>` :
       `<p style="color:var(--muted)">条件に合う学校がありません。<a href="${C.lineUrl}" style="color:var(--teal)">LINEで相談</a>すれば非掲載校もご案内できます。</p>`;
   }
   ["f-keyword", "f-region", "f-style", "f-purpose", "f-budget", "f-sort"].forEach((id) => $(id).addEventListener("input", render));
@@ -114,7 +115,7 @@
       s, score: (s.purposes.includes(ans.purpose) ? 3 : 0) + (ans.style === "こだわらない" || s.style === ans.style ? 2 : 0) + (s.cost4w[0] <= bud ? 2 : 0),
     })).sort((a, b) => b.score - a.score).slice(0, 3);
     body.innerHTML = `<div class="quiz-result"><div class="progress"><div style="width:100%"></div></div>
-      <p class="quiz-q">あなたにおすすめの学校はこちら！</p>
+      <p class="quiz-q">${S.length ? "あなたにおすすめの学校はこちら！" : "診断ありがとうございます！"}</p>
       <div class="grid">${scored.map((x, i) => card(x.s, i)).join("")}</div>
       <p style="color:var(--muted);margin-bottom:18px">診断結果をもとに、プロが無料で最適なプランをご提案します。</p>
       <a class="btn btn-line btn-lg" href="${C.lineUrl}" target="_blank" rel="noopener">診断結果をLINEで相談する</a>

@@ -6,4 +6,6 @@ window.SITE_CONFIG = {
   noteProfileUrl: "https://note.com/waypointryuugaku",
   instagramUrl: "https://www.instagram.com/waypoint.ryuugakubase/",
   lineGift: "学校比較シート＆費用シミュレーション",
+  // ★確認済みでサイトに表示する学校のNo（例: ["001", "007"]）
+  publishedIds: [],
 };

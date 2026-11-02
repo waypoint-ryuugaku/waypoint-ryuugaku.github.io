@@ -1,5 +1,6 @@
 (() => {
-  const C = window.SITE_CONFIG, S = window.SCHOOLS;
+  const C = window.SITE_CONFIG;
+  const S = window.SCHOOLS.filter((s) => (C.publishedIds || []).includes(s.id));
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const uniq = (arr) => [...new Set(arr)];
@@ -14,7 +15,7 @@
   document.querySelectorAll(".js-line").forEach((a) => { a.href = C.lineUrl; a.target = "_blank"; a.rel = "noopener"; });
 
   // 件数カウントアップ
-  let n = 0; const t = setInterval(() => { $("stat-count").textContent = ++n; if (n >= S.length) clearInterval(t); }, 40);
+  let n = 0; const t = setInterval(() => { if (n >= S.length) return clearInterval(t); $("stat-count").textContent = ++n; }, 40);
 
   // フィルタ選択肢
   const fill = (id, vals) => vals.forEach((v) => $(id).insertAdjacentHTML("beforeend", `<option>${esc(v)}</option>`));
